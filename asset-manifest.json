@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rehoboth-builders/static/css/main.794c4774.css",
+    "main.js": "/rehoboth-builders/static/js/main.6d42bbab.js",
+    "index.html": "/rehoboth-builders/index.html",
+    "main.794c4774.css.map": "/rehoboth-builders/static/css/main.794c4774.css.map",
+    "main.6d42bbab.js.map": "/rehoboth-builders/static/js/main.6d42bbab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.794c4774.css",
+    "static/js/main.6d42bbab.js"
+  ]
+}
