@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/rehoboth-builders/static/css/main.794c4774.css",
-    "main.js": "/rehoboth-builders/static/js/main.6d42bbab.js",
+    "main.css": "/rehoboth-builders/static/css/main.8bcf5c85.css",
+    "main.js": "/rehoboth-builders/static/js/main.9d1cb0c4.js",
     "index.html": "/rehoboth-builders/index.html",
-    "main.794c4774.css.map": "/rehoboth-builders/static/css/main.794c4774.css.map",
-    "main.6d42bbab.js.map": "/rehoboth-builders/static/js/main.6d42bbab.js.map"
+    "main.8bcf5c85.css.map": "/rehoboth-builders/static/css/main.8bcf5c85.css.map",
+    "main.9d1cb0c4.js.map": "/rehoboth-builders/static/js/main.9d1cb0c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.794c4774.css",
-    "static/js/main.6d42bbab.js"
+    "static/css/main.8bcf5c85.css",
+    "static/js/main.9d1cb0c4.js"
   ]
 }
