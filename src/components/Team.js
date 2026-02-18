@@ -11,10 +11,18 @@ function Team() {
         <div className="founder-wrapper">
           <div className="founder-images">
             <div className="img-frame main-shot">
-              <img src="/images/ceo.jpg" alt="Rajkumar Franklin - CEO" />
+              {/* FIX: Added process.env.PUBLIC_URL to ensure image loads on GitHub Pages */}
+              <img 
+                src={process.env.PUBLIC_URL + "/images/ceo.jpg"} 
+                alt="Rajkumar Franklin - CEO" 
+              />
             </div>
             <div className="img-frame award-shot">
-              <img src="/images/award.jpg" alt="Rajkumar Franklin - Award Recognition" />
+              {/* FIX: Added process.env.PUBLIC_URL here as well */}
+              <img 
+                src={process.env.PUBLIC_URL + "/images/award.jpg"} 
+                alt="Rajkumar Franklin - Award Recognition" 
+              />
               <div className="award-badge">Awarded Excellence</div>
             </div>
           </div>

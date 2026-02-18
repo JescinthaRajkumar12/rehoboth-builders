@@ -13,18 +13,18 @@ function GalleryPage() {
   }, []);
 
   const images = [
-    "/images/gallery1.jpg",
-    "/images/gallery2.jpg",
-    "/images/gallery3.jpg",
-    "/images/gallery4.jpg",
-    "/images/gallery5.jpg",
-    "/images/gallery6.jpg",
-    "/images/gallery7.jpg",
-    "/images/gallery8.jpg",
-    "/images/gallery9.jpg",
-    "/images/gallery10.jpg",
-    "/images/gallery11.jpg",
-    "/images/gallery12.jpg"
+    process.env.PUBLIC_URL + "/images/gallery1.jpg",
+    process.env.PUBLIC_URL + "/images/gallery2.jpg",
+    process.env.PUBLIC_URL + "/images/gallery3.jpg",
+    process.env.PUBLIC_URL + "/images/gallery4.jpg",
+    process.env.PUBLIC_URL + "/images/gallery5.jpg",
+    process.env.PUBLIC_URL + "/images/gallery6.jpg",
+    process.env.PUBLIC_URL + "/images/gallery7.jpg",
+    process.env.PUBLIC_URL + "/images/gallery8.jpg",
+    process.env.PUBLIC_URL + "/images/gallery9.jpg",
+    process.env.PUBLIC_URL + "/images/gallery10.jpg",
+    process.env.PUBLIC_URL + "/images/gallery11.jpg",
+    process.env.PUBLIC_URL + "/images/gallery12.jpg"
   ];
 
   return (
