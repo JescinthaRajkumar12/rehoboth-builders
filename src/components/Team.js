@@ -29,7 +29,7 @@ function Team() {
 
           <div className="founder-bio">
             <h3>Rajkumar Franklin</h3>
-            <span className="role">CEO & Managing Director</span>
+            <span className="role">Founder & Managing Director</span>
             <p>
               As a second-generation builder, <strong>Rajkumar Franklin</strong> carries forward a 50-year 
               legacy of construction excellence in Chennai. His leadership is defined by a commitment 
