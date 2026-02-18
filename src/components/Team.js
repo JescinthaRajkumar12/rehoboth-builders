@@ -11,14 +11,14 @@ function Team() {
         <div className="founder-wrapper">
           <div className="founder-images">
             <div className="img-frame main-shot">
-              {/* FIX: Added process.env.PUBLIC_URL to ensure image loads on GitHub Pages */}
+              
               <img 
                 src={process.env.PUBLIC_URL + "/images/ceo.jpg"} 
                 alt="Rajkumar Franklin - CEO" 
               />
             </div>
             <div className="img-frame award-shot">
-              {/* FIX: Added process.env.PUBLIC_URL here as well */}
+             
               <img 
                 src={process.env.PUBLIC_URL + "/images/award.jpg"} 
                 alt="Rajkumar Franklin - Award Recognition" 
@@ -29,7 +29,7 @@ function Team() {
 
           <div className="founder-bio">
             <h3>Rajkumar Franklin</h3>
-            <span className="role">Founder, CEO & Managing Director</span>
+            <span className="role">CEO & Managing Director</span>
             <p>
               As a second-generation builder, <strong>Rajkumar Franklin</strong> carries forward a 50-year 
               legacy of construction excellence in Chennai. His leadership is defined by a commitment 

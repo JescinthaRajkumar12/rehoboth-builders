@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-// Ensure this points to your CSS file. 
-// If Contact.css is in the same folder, this is correct:
+
 import './Contact.css'; 
 
 function Contact() {
@@ -13,7 +12,7 @@ function Contact() {
 
   const [status, setStatus] = useState('');
 
-  // ✅ YOUR SPECIFIC FORMSPREE LINK IS NOW HERE
+
   const FORMSPREE_ENDPOINT = "https://formspree.io/f/mrealqya";
 
   const handleChange = (e) => {
@@ -54,20 +53,16 @@ function Contact() {
           <h2>Let's Build Together</h2>
           <p>Ready to bring your dream project to life? Contact our expert team in Chennai today.</p>
           
-          <div className="info-item">
-            <h3>📍 Visit Us</h3>
-            <p>123 Construction Avenue,<br />Anna Nagar, Chennai - 600040<br/>Tamil Nadu, India</p>
-          </div>
+          
 
           <div className="info-item">
             <h3>📞 Call Us</h3>
-            <p>+91 98765 43210</p>
-            <p>+91 44 1234 5678</p>
+            <p>+91 72002 55859</p>
           </div>
 
           <div className="info-item">
             <h3>✉️ Email Us</h3>
-            <p>info@rehobothbuilders.com</p>
+            <p>rehoboth.builders@outlook.com</p>
           </div>
         </div>
 

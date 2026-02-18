@@ -24,7 +24,9 @@ function GalleryPage() {
     process.env.PUBLIC_URL + "/images/gallery9.jpg",
     process.env.PUBLIC_URL + "/images/gallery10.jpg",
     process.env.PUBLIC_URL + "/images/gallery11.jpg",
-    process.env.PUBLIC_URL + "/images/gallery12.jpg"
+    process.env.PUBLIC_URL + "/images/gallery12.jpg",
+    process.env.PUBLIC_URL + "/images/gallery13.jpg",
+    process.env.PUBLIC_URL + "/images/gallery14.jpg"
   ];
 
   return (
