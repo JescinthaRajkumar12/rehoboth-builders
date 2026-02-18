@@ -1,0 +1,116 @@
+/* Team.css */
+.team-section {
+  background: #ffffff;
+  padding: 100px 20px;
+}
+
+.team-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.team-subtitle {
+  color: #ffcc00;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.team-container h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.founder-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.founder-images {
+  flex: 1;
+  display: flex;
+  gap: 20px;
+  min-width: 320px;
+  position: relative;
+}
+
+.img-frame {
+  flex: 1;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  border: 2px solid #eee;
+}
+
+.main-shot {
+  transform: translateY(-20px);
+}
+
+.award-shot {
+  transform: translateY(20px);
+  position: relative;
+}
+
+.img-frame img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+}
+
+.award-badge {
+  position: absolute;
+  bottom: 20px;
+  right: -10px;
+  background: #ffcc00;
+  color: #000;
+  padding: 8px 15px;
+  font-weight: 900;
+  font-size: 12px;
+  text-transform: uppercase;
+  transform: rotate(-5deg);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.founder-bio {
+  flex: 1;
+  min-width: 320px;
+}
+
+.founder-bio h3 {
+  font-size: 32px;
+  margin: 0 0 5px;
+  color: #111;
+}
+
+.founder-bio .role {
+  display: block;
+  font-weight: 700;
+  color: #ffcc00;
+  font-size: 16px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.founder-bio p {
+  color: #555;
+  line-height: 1.8;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 900px) {
+  .founder-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+  .main-shot, .award-shot {
+    transform: none;
+  }
+}
